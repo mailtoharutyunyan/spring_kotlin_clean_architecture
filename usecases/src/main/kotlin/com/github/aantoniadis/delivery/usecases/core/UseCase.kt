@@ -34,7 +34,6 @@ interface UseCaseExecutor {
 
 
 class UseCaseExecutorImp : UseCaseExecutor {
-
     override operator fun <RequestDto, ResponseDto, Request, Response> invoke(
         useCase: UseCase<Request, Response>,
         requestDto: RequestDto,
